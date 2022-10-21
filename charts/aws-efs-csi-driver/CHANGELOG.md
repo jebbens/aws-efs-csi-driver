@@ -1,5 +1,7 @@
 # Helm chart
 
+# v2.2.10
+* Add controller.envFrom for adding ConfigMaps
 # v2.2.9
 * Bump app/driver version to `v1.4.2`
 

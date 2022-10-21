@@ -79,6 +79,16 @@ controller:
     #  eks.amazonaws.com/role-arn: arn:aws:iam::111122223333:role/efs-csi-role
   healthPort: 9909
   regionalStsEndpoints: false
+  envFrom: []
+    # {
+    #   "configMapRef": {
+    #     "name": "proxy-environment-variables",
+    #     "optional": true
+    #   }
+    # }
+    # --set controller.envFrom[0].configMapRef.name=proxy-environment-variables \
+    # --set controller.envFrom[0].configMapRef.optional=true
+
 ## Node daemonset variables
 
 node:

@@ -81,14 +81,6 @@ controller:
   healthPort: 9909
   regionalStsEndpoints: false
   envFrom: []
-    # {
-    #   "configMapRef": {
-    #     "name": "proxy-environment-variables",
-    #     "optional": true
-    #   }
-    # }
-    # --set controller.envFrom[0].configMapRef.name=proxy-environment-variables \
-    # --set controller.envFrom[0].configMapRef.optional=true
 
 ## Node daemonset variables
 
